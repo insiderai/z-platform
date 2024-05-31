@@ -6,7 +6,7 @@ import { PrismaAdapter } from "@auth/prisma-adapter"
 import prismadb from "@/lib/prismadb";
 
 export const authOptions: AuthOptions = {
-    adapter: PrismaAdapter(prismadb),
+    adapter: PrismaAdapter(prismadb) as any,
     providers: [
         CredentialsProvider({
             name: "credentials",

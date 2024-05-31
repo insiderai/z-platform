@@ -1,5 +1,5 @@
 import { getApiDocs } from '@/lib/swagger';
-import ReactSwagger from './react-swagger';
+//import ReactSwagger from './react-swagger';
 import Navbar from './Navbar';
 import { Container } from '@/components/ui/container';
 
@@ -9,9 +9,12 @@ export default async function IndexPage() {
     return (
         <>
             <Navbar />
-            <Container>
+            {/* <Container>
                 <ReactSwagger spec={spec} />
-            </Container>
+            </Container> */}
+            <div>
+                REMOVED
+            </div>
         </>
     );
 }
