@@ -8,7 +8,7 @@ export const Logo:React.FC<LogoProps> = ({size}) => {
     return (
         <>
             <Image priority src={"/z-light.svg"} alt="Z logo" width={size} height={size} loading="eager" className="hidden md:block dark:hidden" />
-            <Image priority src={"/z-dark.svg"} alt="Z logo" width={size} height={size} loading="eager" className="hidden md:dark:block" />
+            <Image priority src={"/i.png"} alt="ZI logo" width={size} height={size} loading="eager" className="hidden md:dark:block" />
         </>
     )
 }

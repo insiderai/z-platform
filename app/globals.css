@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+@import url("https://api.fontshare.com/v2/css?f[]=clash-display@400,700,500,600&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -75,4 +77,63 @@
   body {
     @apply bg-background text-foreground;
   }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Clash Display', sans-serif;
+    text-transform: uppercase;
+  }
+}
+
+
+button.inline-flex.items-center.justify-center.text-sm.font-medium.ring-offset-background.transition-colors.focus-visible\:outline-none.focus-visible\:ring-2.focus-visible\:ring-ring.focus-visible\:ring-offset-2.disabled\:pointer-events-none.disabled\:opacity-50.bg-secondary.text-secondary-foreground.hover\:bg-secondary\/80.h-10.px-4.py-6.rounded-full.w-\[19rem\].mt-6 {
+  background: orangered;
+}
+
+button.inline-flex.items-center.justify-center.text-sm.font-medium.ring-offset-background.transition-colors.focus-visible\:outline-none.focus-visible\:ring-2.focus-visible\:ring-ring.focus-visible\:ring-offset-2.disabled\:pointer-events-none.disabled\:opacity-50.bg-secondary.text-secondary-foreground.hover\:bg-secondary\/80.h-10.px-4.py-6.rounded-full.mt-10.w-full {
+  background: orangered;
+}
+
+button.inline-flex.items-center.justify-center.ring-offset-background.transition-colors.focus-visible\:outline-none.focus-visible\:ring-2.focus-visible\:ring-ring.focus-visible\:ring-offset-2.disabled\:pointer-events-none.disabled\:opacity-50.bg-secondary.text-secondary-foreground.hover\:bg-secondary\/80.h-10.px-4.py-6.rounded-full.text-2xl.font-bold.xl\:px-24 {
+  background: orangered;
+}
+
+.bg-secondary\/20 {
+  background-color: hsl(16.24deg 100% 50% / 16%)!important;
+}
+
+img.object-cover.rounded-full {
+  border-radius: 0;
+}
+
+button.inline-flex.items-center.justify-center.text-sm.font-medium.ring-offset-background.transition-colors.focus-visible\:outline-none.focus-visible\:ring-2.focus-visible\:ring-ring.focus-visible\:ring-offset-2.disabled\:pointer-events-none.disabled\:opacity-50.bg-secondary.text-secondary-foreground.hover\:bg-secondary\/80.h-9.rounded-full.px-4 {
+  background: orangered;
+
+}
+
+
+.bg-background {
+  background:#080808;
+  border-radius: 0px;
+  border: 1px solid orangered;
+}
+
+.absolute.-bottom-16.left-5 {
+  left: 40%;
+}
+
+button {
+  border-radius: 0px !important;
+}
+
+textarea.flex.min-h-\[80px\].w-full.rounded-md.bg-primary.px-3.py-2.ring-offset-background.placeholder\:text-muted.focus-visible\:outline-none.disabled\:cursor-not-allowed.disabled\:opacity-50.resize-none.text-lg {
+  background: black;
+}
+
+button.inline-flex.items-center.justify-center.ring-offset-background.transition-colors.focus-visible\:outline-none.focus-visible\:ring-2.focus-visible\:ring-ring.focus-visible\:ring-offset-2.disabled\:pointer-events-none.disabled\:opacity-50.bg-primary.text-primary-foreground.hover\:bg-primary-foreground\/10.h-10.rounded-full.px-4.py-6.text-2xl.font-bold.w-fit.relative {
+  background: black;
+}
+
+
+
+.sticky.top-0.bg-primary.z-50.pb-3.pt-2 {
+  background: black;
 }

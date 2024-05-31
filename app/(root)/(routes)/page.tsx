@@ -33,9 +33,10 @@ const RootPage = () => {
 
   return (
     <section>
-      <h1 className="text-6xl font-bold">
-        Happening now
+     <h1 className="text-6xl font-bold">
+        discover what <br /> is happening now <br /> on the <span style={{ color: 'orangered' }}>web3</span>
       </h1>
+
       <h2 className="text-3xl font-bold mt-12">
         Join Today,
       </h2>
@@ -60,9 +61,6 @@ const RootPage = () => {
           </ScrollArea>
         </DialogContent>
       </Dialog>
-      <p className="text-xs leading-none mt-2 md:w-[19rem]">
-        By signing up, you agree to the Terms of Service and Privacy Policy, including Cookie Use.
-      </p>
 
       <h3 className="mt-16">
         Already have an account?

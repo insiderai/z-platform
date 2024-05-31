@@ -9,7 +9,9 @@ const HomePage = () => {
   return (
     <section>
       <Header title="Home" center hasBorder/>
-      <PostForm placeHolder="What's happening?!"/>
+      <PostForm placeHolder="What's happening on Web3 today?"/>
+      <PostForm placeHolder="CA"/>
+
       <Separator className='mt-5' />
       <PostFeed />
     </section>

@@ -12,32 +12,34 @@ const SideBarLeft = () => {
             </div>
 
             <div className="flex flex-col px-5 py-2 bg-background rounded-2xl mt-5 gap-y-4">
-                <p className='text-center font-bold text-xl'>Who to follow</p>
+                <p className='text-center font-bold text-xl'>Best insider of the month</p>
                 <FollowBar />
             </div>
 
             <ul className="flex flex-col list-disc px-5 py-2 bg-background rounded-2xl mt-5">
-                <h2 className="text-xl text-center">Made by
-                    <a href="https://github.com/Aking16" 
-                    target="_blank" 
-                    className="ms-1 text-secondary hover:text-secondary/80">
-                        Amirhossein Amiri
-                    </a>
+                <h2 className="text-xl text-center">Hot Tokens Today
                 </h2>
-                <h3 className="text-lg mt-4">Built With:</h3>
-                <li className="text-md text-muted-foreground ms-4">TypeScript</li>
-                <li className="text-md text-muted-foreground ms-4">NextJS</li>
-                <li className="text-md text-muted-foreground ms-4">React</li>
-                <li className="text-md text-muted-foreground ms-4">PostgreSQL</li>
-                <li className="text-md text-muted-foreground ms-4">Prisma</li>
-                <li className="text-md text-muted-foreground ms-4">Bcrypt</li>
-                <li className="text-md text-muted-foreground ms-4">Tailwind</li>
-                <li className="text-md text-muted-foreground ms-4 mb-2">ShadcnUI</li>
+                <li className="text-md text-muted-foreground ms-4">Pepe</li>
+                <li className="text-md text-muted-foreground ms-4">Mog</li>
+                <li className="text-md text-muted-foreground ms-4">Maga</li>
+                <li className="text-md text-muted-foreground ms-4">GME</li>
+                <li className="text-md text-muted-foreground ms-4">Hype</li>
+                <li className="text-md text-muted-foreground ms-4">Tongo</li>
+                <li className="text-md text-muted-foreground ms-4">Insd</li>
                 <Button className="my-2 px-10 py-0">
-                    Github
+                 View More
                 </Button>
             </ul>
+
+
+            <div className="flex flex-col px-5 py-2 bg-background rounded-2xl mt-5 gap-y-4">
+                <p className='text-center font-bold text-xl'>Your Ads Here</p>
+                <FollowBar />
+            </div>
         </aside>
+
+
+
     )
 }
 
