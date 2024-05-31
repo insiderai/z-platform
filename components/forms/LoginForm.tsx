@@ -65,7 +65,7 @@ export function LoginForm() {
                 :
                 <form onSubmit={form.handleSubmit(onSubmit)} className="md:px-[5rem]">
                     <h2 className="text-3xl font-bold mt-2">
-                        Sign in to X
+                        Sign in to INSIDERAI
                     </h2>
 
                     <FormField
