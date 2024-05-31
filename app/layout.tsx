@@ -7,10 +7,10 @@ import { ThemeProvider } from '@/Provider/ThemeProvider';
 
 const inter = Inter({ subsets: ['latin'] })
 
-const APP_NAME = "Z App";
-const APP_DEFAULT_TITLE = "Z Platform";
+const APP_NAME = "InsiderAi App";
+const APP_DEFAULT_TITLE = "InsiderAi - Socialfy";
 const APP_TITLE_TEMPLATE = "%s - PWA App";
-const APP_DESCRIPTION = "Z PWA app";
+const APP_DESCRIPTION = "I PWA app";
 
 export const metadata: Metadata = {
   applicationName: APP_NAME,
